@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Ewoke</string>
+    <string name="Welcome">Welcome to Ewoke</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="Entrées">Entrées</string>
+    <string name="Plats">Plats</string>
+    <string name="Desserts">Desserts</string>
+
+    <!-- List of dishes -->
+    <string name="category" />
+
+
+    <!-- Affichage item !-->
+    <string name="Intro">Nom:</string>
+    <string name="Prix">Prices:</string>
+    <string name="Ingredients">Ingredients</string>
+
+    <string name="Ajout">Quantité</string>
+    <string name="Nb_Item">Nombre d unites</string>
+
+    <string name="Add_basket">Ajouter au panier</string>
+
+    <string name="ble_scan_play">Lancer le scan bluetooth</string>
+    <string name="ble_scan_pause">Scan bluetooth en cours</string>
+    <string name="ble_scan_device_error">Le bluetooth n est pas disponible</string>
+    <string name="ble_device_disconnected">Statut : deconnecté</string>
+    <string name="ble_device_connected">device connected</string>
+    <string name="lecture">Lecture</string>
+    <string name="ecriture">Ecrire</string>
+
+</resources>
