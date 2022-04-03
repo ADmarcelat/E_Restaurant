@@ -77,11 +77,11 @@
 
             android:layout_marginStart="16dp"
             android:layout_marginTop="12dp"
+            android:background="@drawable/layout_bg"
             android:text="-"
             android:textAlignment="center"
             android:textAllCaps="false"
-            android:textColor="@color/raspberry"
-            android:background="@drawable/layout_bg"
+            android:textColor="@color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Quantité" />
 
@@ -95,7 +95,7 @@
             android:background="@drawable/layout_bg"
             android:text="+"
             android:textAlignment="center"
-            android:textColor="@color/raspberry"
+            android:textColor="@color/white"
             app:layout_constraintStart_toEndOf="@+id/total_price"
             app:layout_constraintTop_toBottomOf="@+id/Quantité" />
 
