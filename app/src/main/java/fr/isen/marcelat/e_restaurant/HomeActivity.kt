@@ -33,6 +33,11 @@ class HomeActivity : AppCompatActivity() {
             val intent = Intent(this, BLEScanActivity::class.java)
             startActivity(intent)
         }
+
+        binding.basket.setOnClickListener{
+            val intent = Intent(this, PanierActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onDestroy() {

@@ -28,5 +28,17 @@
     <string name="ble_device_connected">device connected</string>
     <string name="lecture">Lecture</string>
     <string name="ecriture">Ecrire</string>
+    <string name="votre_panier">Votre panier</string>
+    <string name="passer_commande">Passer commande</string>
+    <string name="totalPrice">Price</string>
+    <string name="total">Total</string>
+    <string name="Plus">+</string>
+    <string name="Minus">-</string>
+    <string name="PrixPlat">Prix</string>
+    <string name="askUser">Ajouter au panier ?</string>
+    <string name="ajout">Ajouter</string>
+    <string name="refus">Refuser</string>
+    <string name="merci">Merci d\'avoir commandé chez nous ! Nous n\'avons pas encore de système de CB, c\'est gratuit !</string>
+    <string name="info">info</string>
 
 </resources>

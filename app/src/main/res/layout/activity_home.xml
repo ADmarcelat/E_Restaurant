@@ -130,4 +130,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/basket"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/Welcome"
+        app:layout_constraintStart_toEndOf="@+id/logoEwoke"
+        app:srcCompat="@drawable/basket" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
