@@ -16,11 +16,11 @@ class PanierAdapter(val data: ArrayList<ItemPanier>, val clickListener: (ItemPan
     private lateinit var binding: ActivityPanierAdapterBinding
 
     inner class PanierViewHolder (binding: ActivityPanierAdapterBinding) : RecyclerView.ViewHolder(binding.root) {
-        val imageView: ImageView = binding.itemImage
-        val nameItem: TextView = binding.name
-        val quantityItem: TextView = binding.quantity
-        val priceItem: TextView = binding.price
-        val deleteItem: ImageView = binding.delete
+        val image: ImageView = binding.itemImage
+        val name: TextView = binding.name
+        val quantity: TextView = binding.quantity
+        val price: TextView = binding.price
+        val delete: ImageView = binding.delete
 
     }
 
@@ -32,22 +32,22 @@ class PanierAdapter(val data: ArrayList<ItemPanier>, val clickListener: (ItemPan
     override fun onBindViewHolder(holder: PanierViewHolder, position: Int) {
         val item = data[position]
         if (item.item.name_fr.length > 13) {
-            holder.nameItem.text = item.item.name_fr.subSequence(0,13)
+            holder.name.text = item.item.name_fr.subSequence(0,13)
         }
         else {
-            holder.nameItem.text = item.item.name_fr
+            holder.name.text = item.item.name_fr
         }
-        holder.quantityItem.text = item.quantity.toString()
+        holder.quantity.text = item.quantity.toString()
         var price = item.item.prices[0].price.toFloat() * item.quantity
-        holder.priceItem.text = price.toString() + "€"
+        holder.price.text = price.toString() + "€"
 
         val url = item.item.images[0]
         Picasso.get().load(url.ifEmpty { null }).fit().centerCrop()
             .placeholder(R.drawable.ic_launcher_foreground)
             .error(R.drawable.ic_launcher_background)
-            .into(holder.imageView);
+            .into(holder.image);
 
-        holder.deleteItem.setOnClickListener {
+        holder.delete.setOnClickListener {
             data.remove(data[position])
             notifyItemRemoved(position)
             clickListener(item)

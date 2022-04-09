@@ -59,7 +59,6 @@ class PanierActivity : AppCompatActivity() {
     }
 
     private fun delete(item: ItemPanier) {
-        Log.d("panier", panierList.info.size.toString())
         if (panierList.info.size == 0) {
             panierList = PanierList(arrayListOf())
         } else {
@@ -69,7 +68,6 @@ class PanierActivity : AppCompatActivity() {
                 }
             }
         }
-
         val strPanier = Gson().toJson(panierList, PanierList::class.java)
         File(cacheDir.absolutePath + "panier.json").writeText(strPanier)
     }

@@ -18,12 +18,13 @@
 
         <TextView
             android:id="@+id/detailIngredient"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="56dp"
             android:text="@string/Ingredients"
+            android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="12sp"
+            android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.325"
             app:layout_constraintStart_toStartOf="parent"
@@ -31,24 +32,23 @@
 
         <TextView
             android:id="@+id/detailTitle"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="28dp"
             android:text="@string/Plats"
-            android:textAlignment="textStart"
+            android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/detailIngredient"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/detailSlider"
             app:layout_constraintVertical_bias="0.0" />
 
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/detailSlider"
-            android:layout_width="476dp"
-            android:layout_height="152dp"
-            android:layout_marginStart="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="1dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -58,8 +58,8 @@
 
         <TextView
             android:id="@+id/Quantité"
-            android:layout_width="80dp"
-            android:layout_height="17dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:text="@string/Ajout"
             android:textAlignment="center"
@@ -75,7 +75,7 @@
             android:layout_width="38dp"
             android:layout_height="26dp"
 
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="112dp"
             android:layout_marginTop="12dp"
             android:background="@drawable/layout_bg"
             android:text="@string/Minus"
@@ -129,9 +129,8 @@
 
         <TextView
             android:id="@+id/AjoutPanier"
-            android:layout_width="115dp"
-            android:layout_height="23dp"
-            android:layout_marginStart="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
             android:background="@drawable/layout_bg"
             android:text="@string/Add_basket"
@@ -143,8 +142,8 @@
 
         <ImageView
             android:id="@+id/line"
-            android:layout_width="106dp"
-            android:layout_height="33dp"
+            android:layout_width="186dp"
+            android:layout_height="46dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:src="@drawable/line"
