@@ -6,14 +6,9 @@ import android.bluetooth.*
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.InputType
-import android.util.Log
-
 import android.widget.EditText
 import android.widget.LinearLayout
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-
-
 import androidx.recyclerview.widget.LinearLayoutManager
 import fr.isen.marcelat.e_restaurant.R
 import fr.isen.marcelat.e_restaurant.databinding.ActivityBleDeviceBinding
@@ -86,15 +81,8 @@ class BLEDeviceActivity : AppCompatActivity() {
             }
 
 
-            val gattServices: List<BluetoothGattService> = gatt!!.services
-            for (gattService in gattServices) {
-                val serviceUUID = gattService.uuid.toString()
 
-                val gattChara: List<BluetoothGattCharacteristic> = gattService.characteristics
-                for(gattC in gattChara ){
-                    val charaUUID = gattC.uuid.toString()
-                }
-            }
+
         }
         override fun onCharacteristicRead(
             gatt: BluetoothGatt?, characteristic: BluetoothGattCharacteristic?, status: Int

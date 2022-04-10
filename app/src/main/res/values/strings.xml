@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Ewoke</string>
+    <string name="app_name">AdrienAndroidERestaurant</string>
     <string name="Welcome">Welcome to Ewoke</string>
 
     <!-- Strings used for fragments for navigation -->

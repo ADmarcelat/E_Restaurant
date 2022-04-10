@@ -2,7 +2,6 @@ package fr.isen.marcelat.e_restaurant.BLE
 
 import BLEService
 import android.bluetooth.BluetoothGattCharacteristic
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
