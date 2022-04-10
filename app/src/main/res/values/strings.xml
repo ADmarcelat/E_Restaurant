@@ -40,5 +40,12 @@
     <string name="refus">Refuser</string>
     <string name="merci">Merci d\'avoir commandé chez nous ! Nous n\'avons pas encore de système de CB, c\'est gratuit !</string>
     <string name="info">info</string>
+    <string name="ble_unknown">appareil inconnu</string>
+    <string name="ble_disconnected">Deconnecté</string>
+    <string name="ble_connected">Connecté</string>
+    <string name="ble_connecting">Connection en cours</string>
+    <string name="valeur">Rentrer la valeur</string>
+    <string name="valider">Valider</string>
+    <string name="refuser">Refuser</string>
 
 </resources>

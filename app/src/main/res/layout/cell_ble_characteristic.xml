@@ -32,19 +32,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="4dp"
         android:text="@string/lecture"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/characteristicUUID"
+        app:layout_constraintTop_toBottomOf="@+id/characteristicValues"
         tools:text="Lecture" />
 
     <Button
-        android:id="@+id/Write"
+        android:id="@+id/WriteAction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="20dp"
         android:text="@string/ecriture"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ReadAction" />
+        app:layout_constraintStart_toEndOf="@+id/ReadAction"
+        app:layout_constraintTop_toBottomOf="@+id/characteristicProperties"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <TextView
+        android:id="@+id/characteristicProperties"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/characteristicUUID"
+        tools:text="Properties" />
+
+    <TextView
+        android:id="@+id/characteristicValues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/characteristicProperties"
+        tools:text="Value" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

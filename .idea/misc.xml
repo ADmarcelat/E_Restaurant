@@ -28,16 +28,16 @@
         <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/drawable/basket.xml" value="0.1" />
         <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.1085" />
         <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/drawable/layout_bg.xml" value="0.1" />
-        <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/activity_ble_device.xml" value="0.3826771653543307" />
+        <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/activity_ble_device.xml" value="0.264" />
         <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/activity_blescan.xml" value="0.2" />
         <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/activity_detail.xml" value="0.2" />
         <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/activity_home.xml" value="0.4" />
         <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/activity_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/activity_panier.xml" value="0.16" />
         <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/activity_panier_adapter.xml" value="0.25" />
-        <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/cell_ble_characteristic.xml" value="0.264" />
-        <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/cell_ble_service.xml" value="0.264" />
-        <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/data_ble.xml" value="0.20072992700729927" />
+        <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/cell_ble_characteristic.xml" value="0.4" />
+        <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/cell_ble_service.xml" value="0.536" />
+        <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/data_ble.xml" value="0.264" />
         <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/fragment_picture.xml" value="0.1" />
         <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/item.xml" value="0.1" />
         <entry key="..\:/E_Restaurant_Ewoke-master/app/src/main/res/layout/menu.xml" value="0.1" />

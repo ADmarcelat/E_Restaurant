@@ -100,7 +100,6 @@ class BLEScanActivity : AppCompatActivity() {
     //Retour asynchrone appellée de manière assez regulière
     private val scanCallback = object : ScanCallback() {
         override fun onScanResult(callbackType: Int, result: ScanResult) {
-            Log.d("BLEScanActivity", "result: ${result.device.address}, rssi: ${result.rssi}")
             (binding.recyclerView.adapter as BLEAdapter).apply{
                 fillBLE(result)
                 notifyDataSetChanged()
@@ -139,8 +138,6 @@ class BLEScanActivity : AppCompatActivity() {
             binding.LoadBar.isVisible = false
         }
     }
-
-
 
     companion object {
         private const val ENABLE_BLUETOOTH_REQUEST_CODE = 1
